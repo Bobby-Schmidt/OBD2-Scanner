@@ -25,7 +25,7 @@ class Application(Frame):
 		self.button1.grid(row = 0, column = 0, sticky = W)
 
 		self.button2 = Button(self, text = "Second Button")
-		self.button2.grid(row = 2, column = 0, sticky = W)
+		self.button2.grid(row = 2, column = 1, sticky = W)
 
 		self.button3 = Button(self, text = "Third Button")
 		self.button3.grid()
